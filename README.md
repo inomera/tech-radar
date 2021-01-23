@@ -9,7 +9,7 @@ This repository contains the code to generate the visualization:
 [`radar.js`](/docs/radar.js) (based on [d3.js v4](https://d3js.org)).
 Feel free to use and adapt it for your own purposes.
 
-The source code derived from Zalando SE.
+The source code is derived from Zalando SE.
 
 ## Usage
 
