@@ -1,7 +1,7 @@
 # Motivation
 
 At [Inomera](http://inomera.com), we maintain a [public Tech
-Radar](https://github.com/inomera/tech-radar) to help our engineering teams
+Radar](https://inomera.github.io/tech-radar/) to help our engineering teams
 align on technology choices. It is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
 
