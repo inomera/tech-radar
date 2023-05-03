@@ -2,7 +2,7 @@
 
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Inomera Tech Radar 2022</title>
+    <title>Inomera Tech Radar 2020</title>
     <link rel="shortcut icon" href="https://inomera.com/wp-content/uploads/2020/11/cropped-inomera-favicon-1-32x32.jpg">
 
     <script src="d3.v4.min.js"></script>
@@ -25,7 +25,7 @@
             grid: "#bbb",
             inactive: "#ddd"
         },
-        title: "Inomera Telco Tech Radar — 2022",
+        title: "Inomera Telco Tech Radar — 2020",
         quadrants: [
             {name: "Languages & Frameworks"},
             {name: "Infrastructure"},
@@ -53,14 +53,14 @@
             {
                 quadrant: 3,
                 ring: 0,
-                label: "Java 17",
+                label: "Hazelcast",
                 active: false,
-                link: "../data_processing/aws_emr.html",
+                link: "../datastores/hazelcast.html",
                 moved: 0
             },
             {
                 quadrant: 3,
-                ring: 2,
+                ring: 1,
                 label: "Cassandra",
                 active: false,
                 link: "../datastores/cassandra.html",
@@ -76,26 +76,26 @@
             },
             {
                 quadrant: 3,
-                ring: 0,
-                label: "MongoDB 5",
+                ring: 1,
+                label: "MongoDB",
                 active: false,
                 link: "../datastores/mongodb.html",
                 moved: 0
             },
             {
                 quadrant: 3,
-                ring: 0,
-                label: "Hazelcast 5",
+                ring: 1,
+                label: "Hazelcast(cloud)",
                 active: false,
-                link: "../datastores/hazelcast5.html",
+                link: "../datastores/hazelcast-cloud.html",
                 moved: 0
             },
             {
                 quadrant: 3,
-                ring: 0,
-                label: "Kafka 3",
+                ring: 1,
+                label: "Kafka(cloud)",
                 active: false,
-                link: "../datastores/kafka3.html",
+                link: "../datastores/kafka-cloud.html",
                 moved: 0
             },
             {
@@ -109,39 +109,23 @@
             {
                 quadrant: 3,
                 ring: 2,
-                label: "MySQL DB",
-                active: false,
-                link: "../datastores/oracle_db.html",
-                moved: 0
-            },
-            {
-                quadrant: 3,
-                ring: 3,
                 label: "ZooKeeper",
                 active: false,
                 link: "../datastores/zookeeper.html",
                 moved: 0
             },
             {
-                quadrant: 3,
-                ring: 3,
-                label: "Kafka 1",
+                quadrant: 2,
+                ring: 0,
+                label: "RxJava",
                 active: false,
-                link: "../datastores/kafka1.html",
+                link: "../frameworks/rxjava.html",
                 moved: 0
             },
             {
                 quadrant: 2,
-                ring: 3,
-                label: "RxJava",
-                active: false,
-                link: "../frameworks/rxjava.html",
-                moved: 3
-            },
-            {
-                quadrant: 2,
                 ring: 0,
-                label: "Spring Boot 3",
+                label: "Spring",
                 active: false,
                 link: "../frameworks/spring.html",
                 moved: 0
@@ -164,7 +148,7 @@
             },
             {
                 quadrant: 2,
-                ring: 1,
+                ring: 0,
                 label: "Thymeleaf",
                 active: false,
                 link: "../frameworks/thymeleaf.html",
@@ -172,7 +156,7 @@
             },
             {
                 quadrant: 2,
-                ring: 2,
+                ring: 1,
                 label: "Vue.js",
                 active: false,
                 link: "../frameworks/vuejs.html",
@@ -180,15 +164,7 @@
             },
             {
                 quadrant: 2,
-                ring: 2,
-                label: "React.js",
-                active: false,
-                link: "../frameworks/vuejs.html",
-                moved: 0
-            },
-            {
-                quadrant: 2,
-                ring: 0,
+                ring: 1,
                 label: "Mongock",
                 active: false,
                 link: "../frameworks/mongock.html",
@@ -196,18 +172,10 @@
             },
             {
                 quadrant: 2,
-                ring: 3,
+                ring: 2,
                 label: "Spring Reactive",
                 active: false,
                 link: "../frameworks/spring_reactive.html",
-                moved: 0
-            },
-            {
-                quadrant: 2,
-                ring: 3,
-                label: "Spring Boot 1",
-                active: false,
-                link: "../frameworks/spring_boot.html",
                 moved: 0
             },
             {
@@ -229,15 +197,7 @@
             {
                 quadrant: 1,
                 ring: 0,
-                label: "Docker(Non-Root)",
-                active: false,
-                link: "../infrastructure/docker.html",
-                moved: 0
-            },
-            {
-                quadrant: 1,
-                ring: 0,
-                label: "Podman",
+                label: "Docker",
                 active: false,
                 link: "../infrastructure/docker.html",
                 moved: 0
@@ -252,7 +212,7 @@
             },
             {
                 quadrant: 1,
-                ring: 1,
+                ring: 0,
                 label: "Nginx",
                 active: false,
                 link: "../infrastructure/nginx.html",
@@ -260,7 +220,7 @@
             },
             {
                 quadrant: 1,
-                ring: 2,
+                ring: 3,
                 label: "Apache",
                 active: false,
                 link: "../infrastructure/nginx.html",
@@ -268,7 +228,7 @@
             },
             {
                 quadrant: 1,
-                ring: 3,
+                ring: 1,
                 label: "AppDynamics",
                 active: false,
                 link: "../infrastructure/appdynamics.html",
@@ -276,7 +236,7 @@
             },
             {
                 quadrant: 1,
-                ring: 0,
+                ring: 1,
                 label: "Redhat Openshift",
                 active: false,
                 link: "../infrastructure/openshift.html",
@@ -300,7 +260,7 @@
             },
             {
                 quadrant: 1,
-                ring: 2,
+                ring: 3,
                 label: "Weblogic",
                 active: false,
                 link: "../infrastructure/weblogic.html",
@@ -324,15 +284,7 @@
             },
             {
                 quadrant: 0,
-                ring: 2,
-                label: "Java 19",
-                active: true,
-                link: "java.html",
-                moved: 0
-            },
-            {
-                quadrant: 0,
-                ring: 3,
+                ring: 0,
                 label: "Java 8",
                 active: true,
                 link: "java.html",
@@ -342,14 +294,6 @@
                 quadrant: 0,
                 ring: 0,
                 label: "Java 11",
-                active: true,
-                link: "java.html",
-                moved: 0
-            },
-            {
-                quadrant: 0,
-                ring: 0,
-                label: "Java 17",
                 active: true,
                 link: "java.html",
                 moved: 0
@@ -372,7 +316,7 @@
             },
             {
                 quadrant: 0,
-                ring: 1,
+                ring: 0,
                 label: "Groovy",
                 active: true,
                 link: "groovy.html",
@@ -389,14 +333,6 @@
             {
                 quadrant: 0,
                 ring: 1,
-                label: "Protobuf",
-                active: true,
-                link: "protobuf.html",
-                moved: 1
-            },
-            {
-                quadrant: 0,
-                ring: 1,
                 label: "TypeScript",
                 active: true,
                 link: "typescript.html",
@@ -404,7 +340,7 @@
             },
             {
                 quadrant: 0,
-                ring: 1,
+                ring: 2,
                 label: "Java 14",
                 active: true,
                 link: "java.html",
@@ -418,7 +354,30 @@
                 link: "smile.html",
                 moved: 0
             },
-
+            {
+                quadrant: 0,
+                ring: 3,
+                label: "Java 7",
+                active: true,
+                link: "java.html",
+                moved: -1
+            },
+            {
+                quadrant: 3,
+                ring: 0,
+                label: "Kafka",
+                active: false,
+                link: "../queues/kafka.html",
+                moved: 0
+            },
+            {
+                quadrant: 3,
+                ring: 3,
+                label: "SonicMQ",
+                active: false,
+                link: "../queues/sonicmq.html",
+                moved: 0
+            },
         ]
         //ENTRIES
     });
@@ -431,7 +390,7 @@
             <h3>What is the Tech Radar?</h3>
 
             <p>
-                The Inomera Tech Radar 2022 is a list of technologies, complemented by an assessment result, called <em>ring
+                The Inomera Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring
                 assignment</em>. We use four rings with the following semantics:
             </p>
 
