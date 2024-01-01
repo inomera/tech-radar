@@ -2,7 +2,7 @@
 
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Inomera Tech Radar 2023</title>
+    <title>Inomera Tech Radar 2022</title>
     <link rel="shortcut icon" href="https://inomera.com/wp-content/uploads/2020/11/cropped-inomera-favicon-1-32x32.jpg">
 
     <script src="d3.v4.min.js"></script>
@@ -25,7 +25,7 @@
             grid: "#bbb",
             inactive: "#ddd"
         },
-        title: "Inomera Telco Tech Radar — 2023",
+        title: "Inomera Telco Tech Radar — 2022",
         quadrants: [
             {name: "Languages & Frameworks"},
             {name: "Infrastructure"},
@@ -44,18 +44,26 @@
         entries: [
             {
                 quadrant: 3,
-                ring: 2,
-                label: "Cassandra",
+                ring: 0,
+                label: "Java 11",
                 active: false,
-                link: "../datastores/cassandra.html",
+                link: "../data_processing/aws_emr.html",
+                moved: 0
+            },
+            {
+                quadrant: 3,
+                ring: 0,
+                label: "Java 17",
+                active: false,
+                link: "../data_processing/aws_emr.html",
                 moved: 0
             },
             {
                 quadrant: 3,
                 ring: 2,
-                label: "Redis",
+                label: "Cassandra",
                 active: false,
-                link: "../datastores/redis.html",
+                link: "../datastores/cassandra.html",
                 moved: 0
             },
             {
@@ -124,6 +132,14 @@
             },
             {
                 quadrant: 2,
+                ring: 3,
+                label: "RxJava",
+                active: false,
+                link: "../frameworks/rxjava.html",
+                moved: 3
+            },
+            {
+                quadrant: 2,
                 ring: 0,
                 label: "Spring Boot 3",
                 active: false,
@@ -164,7 +180,7 @@
             },
             {
                 quadrant: 2,
-                ring: 0,
+                ring: 2,
                 label: "React.js",
                 active: false,
                 link: "../frameworks/vuejs.html",
@@ -203,6 +219,14 @@
                 moved: 0
             },
             {
+                quadrant: 2,
+                ring: 3,
+                label: "jQuery",
+                active: false,
+                link: "../frameworks/jquery.html",
+                moved: 0
+            },
+            {
                 quadrant: 1,
                 ring: 0,
                 label: "Docker(Non-Root)",
@@ -212,7 +236,7 @@
             },
             {
                 quadrant: 1,
-                ring: 1,
+                ring: 0,
                 label: "Podman",
                 active: false,
                 link: "../infrastructure/docker.html",
@@ -228,7 +252,7 @@
             },
             {
                 quadrant: 1,
-                ring: 3,
+                ring: 1,
                 label: "Nginx",
                 active: false,
                 link: "../infrastructure/nginx.html",
@@ -269,6 +293,14 @@
             {
                 quadrant: 1,
                 ring: 3,
+                label: "Tomcat",
+                active: false,
+                link: "../infrastructure/tomcat.html",
+                moved: 0
+            },
+            {
+                quadrant: 1,
+                ring: 3,
                 label: "Weblogic",
                 active: false,
                 link: "../infrastructure/weblogic.html",
@@ -283,8 +315,16 @@
                 moved: 0
             },
             {
-                quadrant: 0,
+                quadrant: 1,
                 ring: 3,
+                label: "Hystrix",
+                active: false,
+                link: "../infrastructure/hystrix.html",
+                moved: -1
+            },
+            {
+                quadrant: 0,
+                ring: 2,
                 label: "Java 19",
                 active: true,
                 link: "java.html",
@@ -293,6 +333,14 @@
             {
                 quadrant: 0,
                 ring: 3,
+                label: "Java 8",
+                active: true,
+                link: "java.html",
+                moved: 0
+            },
+            {
+                quadrant: 0,
+                ring: 0,
                 label: "Java 11",
                 active: true,
                 link: "java.html",
@@ -316,7 +364,7 @@
             },
             {
                 quadrant: 0,
-                ring: 0,
+                ring: 1,
                 label: "OpenAPI (Swagger)",
                 active: true,
                 link: "openapi_swagger.html",
@@ -340,7 +388,7 @@
             },
             {
                 quadrant: 0,
-                ring: 0,
+                ring: 1,
                 label: "Protobuf",
                 active: true,
                 link: "protobuf.html",
@@ -356,7 +404,7 @@
             },
             {
                 quadrant: 0,
-                ring: 3,
+                ring: 1,
                 label: "Java 14",
                 active: true,
                 link: "java.html",
@@ -364,7 +412,7 @@
             },
             {
                 quadrant: 0,
-                ring: 2,
+                ring: 1,
                 label: "Smile",
                 active: true,
                 link: "smile.html",
@@ -383,7 +431,7 @@
             <h3>What is the Tech Radar?</h3>
 
             <p>
-                The Inomera Tech Radar 2023 is a list of technologies, complemented by an assessment result, called <em>ring
+                The Inomera Tech Radar 2022 is a list of technologies, complemented by an assessment result, called <em>ring
                 assignment</em>. We use four rings with the following semantics:
             </p>
 
